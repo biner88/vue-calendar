@@ -14,11 +14,12 @@
 
 ## Demo
 
-![效果](http://qiniu.lovejs.top/1548813176.png) [或者请用浏览器的手机模式查看](https://zwhgithub.github.io/vue-calendar/dist/#/)
+![效果](https://zwhgithub.github.io/vue-calendar/dist/1510652959.png) [或者请用浏览器的手机模式查看](https://zwhgithub.github.io/vue-calendar/dist/#/)
 
 ## 效果
 
-![效果](http://qiniu.lovejs.top/21312312312312312.jpg?imageView2/2/h/530)
+<img width="286" height="528" src="https://zwhgithub.github.io/vue-calendar/dist/WechatIMG4885.jpeg"/>
+
 * 🎉 觉得好用给一个 star 哦~~ 🎉
 
 ## Install
@@ -59,7 +60,7 @@ import Calendar from 'vue-calendar-component';
       console.log(data); //左右点击切换月份
     },
     clickToday(data) {
-      console.log(data); // 跳到了本月
+      console.log(data); //跳到了本月
     }
 
   // 多个标记示例
@@ -82,7 +83,7 @@ import Calendar from 'vue-calendar-component';
 | textTop       | 日历头部的文字，默认是 [ '日','一', '二', '三', '四', '五', '六'] ，可以根据自己的需求进行不同的修改。 |  ---   |    否    |
 
 ```javascript
-✅ 在 Calendar标签上添加 ref 属性, 暴露出三个方法可以 直接切换月份
+✅ 在 Calendar标签上添加 ref 属性, 暴露出三个方法可以  直接切换月份
 例如: <Calendar ref="Calendar"></Calendar>
 
       ✅ this.$refs.Calendar.PreMonth();  //调用方法实现转到上个月
@@ -107,5 +108,5 @@ import Calendar from 'vue-calendar-component';
 [babel-preset-env官方文档](https://github.com/babel/babel-preset-env)
 ## Other
 
-* src 下面的 App.vue 有 demo 可以参考
-* 如果有其他问题或者版本上, 功能上不兼容的 邮件沟通 zwhcoder@gmail.com，请具体 标明问题。
+* src 下面的 App.vue 有 demo 可以参考.
+* 如果有其他问题或者版本上, 功能上不兼容的 邮件沟通 zwhcoder@gmail.com
