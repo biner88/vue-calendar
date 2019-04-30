@@ -16,9 +16,6 @@
 
 [或者请用浏览器的手机模式查看](https://zwhgithub.github.io/vue-calendar/dist/#/)
 
-## 效果
-
-<img width="286" height="528" src="https://zwhgithub.github.io/vue-calendar/dist/WechatIMG4885.jpeg"/>
 
 * 🎉 觉得好用给一个 star 哦~~ 🎉
 
