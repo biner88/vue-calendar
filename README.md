@@ -14,7 +14,7 @@
 
 ## Demo
 
-![效果](https://zwhgithub.github.io/vue-calendar/dist/1510652959.png) [或者请用浏览器的手机模式查看](https://zwhgithub.github.io/vue-calendar/dist/#/)
+[或者请用浏览器的手机模式查看](https://zwhgithub.github.io/vue-calendar/dist/#/)
 
 ## 效果
 
@@ -25,8 +25,8 @@
 ## Install
 
 ```javascript
-npm i vue-calendar-component --save
-cnpm i vue-calendar-component --save  //国内镜像
+npm i vue-calendar-btrack --save
+cnpm i vue-calendar-btrack --save  //国内镜像
 ```
 
 ## [github地址](https://github.com/zwhGithub/vue-calendar) 详细文档
@@ -36,7 +36,7 @@ cnpm i vue-calendar-component --save  //国内镜像
 
 ```javascript
 //vue文件中引入
-import Calendar from 'vue-calendar-component';
+import Calendar from 'vue-calendar-btrack';
 
  components: {
     Calendar
@@ -92,21 +92,3 @@ import Calendar from 'vue-calendar-component';
       ✅ this.$refs.Calendar.ChoseMonth('2018-12-12',false); //跳转到18年12月12日 但是不选中当天
       //第二个参数 false表示不选中日期 。
 ```
-## 遇到错误---
-- 遇到提示UglifyJs打包编译错误。
- 因为当前版本UglifyJs不知道编译es6
- 
- 解决方法
- **npm install --save-dev babel-preset-env** <br>
-然后在根目录创建一个 .babelrc 文件
-在输入,<br>
-{
-  "presets": ["env"]
-}
-<br>保存 重新build就OK了
-
-[babel-preset-env官方文档](https://github.com/babel/babel-preset-env)
-## Other
-
-* src 下面的 App.vue 有 demo 可以参考.
-* 如果有其他问题或者版本上, 功能上不兼容的 邮件沟通 zwhcoder@gmail.com
